@@ -9,3 +9,6 @@ Uncaught TypeError: Cannot read property 'length' of undefined
     at s.execute [as getValue] (bodymovin.js:13)....
     (note that if other parameters, like position, are linked to a rotation of a 3d layer, 
     it gives me no error but neither works on setting position.) 
+    
+- Nested precomp works only if not 3d, otherwise (a comp with a 3d precomp with 3d layers) gives me:
+Uncaught TypeError: this.addTo3dContainer is not a function...
