@@ -4,7 +4,7 @@ here you can find some issues i had (win10/chrome)...
 error: DOMException: Failed to execute 'insertBefore' on 'Node': 
 The node before which the new node is to be inserted is not a child of this node.
 
-- linkin with expression to 3d rotation gives this error:
+- linking with expression to 3d rotation gives this error:
 Uncaught TypeError: Cannot read property 'length' of undefined
     at s.execute [as getValue] (bodymovin.js:13)....
     (note that if other parameters, like position, are linked to a rotation of a 3d layer, 
