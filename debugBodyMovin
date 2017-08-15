@@ -1,4 +1,0 @@
-here you can find some issues i had...
-
-- 2solid_one3d_oneNot does work if the 3d solid is the second/green one, but not if it's the first
-error: DOMException: Failed to execute 'insertBefore' on 'Node': The node before which the new node is to be inserted is not a child of this node.
